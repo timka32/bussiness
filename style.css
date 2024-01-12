@@ -13,3 +13,19 @@
     box-sizing: border-box;
     font-family: "Mulish", "Unbounded", "Arial", sans-serif;
 }
+.header-logo > img{
+height: 35px;
+}
+.header-logo{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.header-logo > h4{
+font-size: 25px;
+}
+.header__content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
