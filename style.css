@@ -13,6 +13,10 @@
     box-sizing: border-box;
     font-family: "Mulish", "Unbounded", "Arial", sans-serif;
 }
+header{
+    padding: 20px 0px;
+    background: var(--primary-bg);
+}
 .header-logo > img{
 height: 35px;
 }
@@ -22,7 +26,23 @@ align-items: center;
 gap: 10px;
 }
 .header-logo > h4{
-font-size: 25px;
+font-size: 23px;
+font-family:var(--primary-font);
+color: white;
+}
+.header__nav-link{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+.header-btn{
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background: #109ffe;
+    color: white;
+    border: none;
 }
 .header__content{
 display: flex;
